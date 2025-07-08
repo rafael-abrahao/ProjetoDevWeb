@@ -41,7 +41,7 @@
     <body class="bg-dark-subtle">
         <?php include "navbar.php";?>
         <div class="container d-flex justify-content-center align-items-center form-container mt-5 bg-light p-4">
-            <form style="min-width: 1000px;" action="quest_edit" method="post">
+            <form style="min-width: 1000px;" action="quest_edit.php" method="post">
                 <input type="hidden" id="questao_id" name="questao_id" value=<?php echo $questao_id?>>
                 <input type="hidden" id="formulario_id" name="formulario_id" value=<?php echo $formulario_id?>>
                 <textarea class="form-control" name="enunciado" id="enunciado" rows="3" required><?php echo htmlspecialchars($questao_enunciado); ?></textarea><br><br>
